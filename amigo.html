@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <img class="rosto" src="rosto-normal.svg" alt="Imagem de rosto">
+
+    <div id="mensagens">
+        <div>
+            <div class="caixa-mensagem">
+                Olá! Me chamo Cara, prazer em conhecê-lo!
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="grupo-btns">
+        <p class="texto-centro">Escolha a sua resposta abaixo:</p>
+    
+        <div class="texto-centro">
+            <button onclick="responder('Olá!')" class="btn-opcao">Olá!</button>
+            <button onclick="responder('Não te gosto!')" class="btn-opcao">Não te gosto!</button>
+            <button onclick="responder('Está elegante hoje!')" class="btn-opcao">Está elegante hoje!</button>
+        </div>
+        <div class="texto-centro mt-20">
+            <button class="btn-lixeira">
+                <img src="trash.svg" alt="imagem de lixeira">
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

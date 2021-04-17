@@ -1,0 +1,88 @@
+
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 550px;
+    padding-bottom: 180px;
+}
+
+.rosto {
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px
+}
+
+.caixa-mensagem {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.3);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 50%;
+}
+
+.caixa-mensagem.mensagem-usuario {
+    background-color: rgb(255, 251, 141);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+
+.btn-opcao {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-right: -6px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-opcao:active {
+    background-color: rgb(255, 251, 141);
+}
+
+.btn-lixeira {
+    background-color: rgb(147, 147, 147);
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.grupo-btns {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .caixa-mensagem {
+        max-width: 90%;
+    }
+}
